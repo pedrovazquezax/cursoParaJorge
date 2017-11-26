@@ -88,6 +88,31 @@ if partidoDeFutbol == "Ganado"{
     print("partido Empatado")
 }
 
+//switch case
+var numeroDeLlantas = 8
+
+switch numeroDeLlantas {
+case 1:
+    print("monociclo")
+case 2:
+    print("Bicicleta")
+case 3:
+    print("triciclo")
+case 4...12:// los ... es de un valor a otro
+    print("camion o auto")
+default:
+    print("no lo conozco")
+}
+
+var caracter : Character
+caracter = "g"
+switch caracter {
+case "a","e","i","o","u":
+    print("es una vocal")
+default:
+    print("es una consonante")
+}
+
 
 
 
